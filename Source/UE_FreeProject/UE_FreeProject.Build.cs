@@ -12,6 +12,8 @@ public class UE_FreeProject : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		PublicIncludePaths.Add(System.IO.Path.Combine(ModuleDirectory, ""));
+
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
