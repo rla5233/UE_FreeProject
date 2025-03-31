@@ -51,7 +51,6 @@ public:
 		return CurrentState->GetFName();
 	}
 
-
 private:
 	UPROPERTY(VisibleAnywhere)
 	TMap<FName, TObjectPtr<UState>> AllState;
